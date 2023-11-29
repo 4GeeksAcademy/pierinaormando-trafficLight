@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import trafficLight from "./component/trafficLight";
+import TrafficLight from "./component/trafficLight";
 
 //render your react application
-ReactDOM.render(<trafficLight />, document.querySelector("#app"));
+ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
